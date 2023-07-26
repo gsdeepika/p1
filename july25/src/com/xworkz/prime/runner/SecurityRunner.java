@@ -6,10 +6,10 @@ public class SecurityRunner {
 		Security  security=new  Security();
 		System.out.println( security.toString());
 		
-		 Security  security1=new  Security();
-		System.out.println( security1);
-		
+		Object object=new Security();
+		System.out.println(object);
 
 	}
 
 }
+	

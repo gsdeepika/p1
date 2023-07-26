@@ -7,10 +7,10 @@ public class LadooRunner {
 System.out.println("Running in main");
 		
 		Ladoo ladoo=new Ladoo();
-		System.out.println(ladoo);//print toString implicit
+		System.out.println(ladoo);
 		
-		Ladoo ladoo2=new Ladoo();
-		System.out.println(ladoo2.toString());//print toString explicit
+		Object object=new Ladoo();
+		System.out.println(object);
 
 	}
 

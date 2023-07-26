@@ -6,8 +6,8 @@ public class PrimeMinisterRunner {
 		PrimeMinister primeMinister=new PrimeMinister();
 		System.out.println(primeMinister.toString());
 		
-		PrimeMinister primeMinister1=new PrimeMinister();
-		System.out.println(primeMinister1);
+		Object object=new PrimeMinister();
+		System.out.println(object);
 
 	}
 
